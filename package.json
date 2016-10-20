@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch",
+    "build:vue": "cd resources/vue && npm run build",
+    "build:vue:dev": "cd resources/vue && npm run build:dev"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.10",
+    "jquery": "^3.1.0"
+  }
+}
