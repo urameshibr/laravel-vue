@@ -19,7 +19,7 @@
   },
   "aliasify": {
     "aliases": {
-      "vue$": "vue/dist/vue"
+      "vue": "vue/dist/vue.js"
     }
   },
   "dependencies": {
